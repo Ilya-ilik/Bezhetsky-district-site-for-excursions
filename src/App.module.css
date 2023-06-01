@@ -1,0 +1,186 @@
+.intro {
+  position: relative;
+  width: 1920px;
+  height: 800px;
+  border: 1px solid black;
+  margin: 0 auto;
+  background-image: linear-gradient(rgba(24, 15, 15, 0.9), rgba(0, 0, 0, -5.1)),
+    url("https://img1.goodfon.ru/original/1920x1080/7/7a/nebo-les-derevya-sosny.jpg");
+  /* background-color: #fffdd0; */
+  /* -webkit-background-size: cover;
+          background-size: cover; */
+
+  /* background: linear-gradient( rgba(255, 255, 255, 0.8), rgba(0, 0, 0, 0.5) ), url('/img/back/home-back.jpg');*/
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: top;
+}
+
+.header {
+  display: flex;
+  width: 1920px;
+  height: 88px;
+  /* border: 1px solid black; */
+  gap: 793px;
+  margin-bottom: 200px;
+}
+
+.left {
+  width: 245px;
+  height: 88px;
+  /* border: 1px solid black; */
+}
+
+.menu {
+  display: flex;
+  align-items: center;
+  width: 882px;
+  height: 88px;
+  /* border: 1px solid black; */
+}
+
+.menu__link {
+  position: relative;
+  color: white; /*задаём цвет ссылки*/
+  cursor: pointer;
+  line-height: 1; /*задаём высоту строки*/
+  text-decoration: none; /*убираем подчёркивание*/
+  font-size: 1.5rem;
+}
+
+.menu__link:after {
+  display: block;
+  position: absolute;
+  left: 0; /*изменить на right:0;, чтобы изменить направление подчёркивания */
+  width: 0; /*задаём длинну линии до наведения курсора*/
+  height: 2px; /*задаём ширину линии*/
+  background-color: white; /*задаём цвет линии*/
+  content: "";
+  transition: width 0.3s ease-out; /*задаём время анимации*/
+}
+
+.menu__link:hover:after,
+.menu__link:focus:after {
+  width: 100%; /*устанавливаем значение 100% чтобы ссылка подчёркивалась полностью*/
+}
+
+.intro__text {
+  width: 500px;
+  font-size: 2rem;
+  color: white;
+  margin: 0 auto;
+}
+
+.intro__header {
+  width: 850px;
+  font-size: 4rem;
+  color: white;
+  margin: 0 auto 70px auto;
+}
+
+.intro__button {
+  /* display: flex;
+  align-items: center;
+  text-align: center; */
+  width: 200px;
+  height: 50px;
+  background-color: rgb(8, 27, 29);
+  margin: 0 auto;
+  /* border-radius: 10%; */
+  border: 3px solid black;
+  color: white;
+}
+
+/* .intro__button p {
+  margin: auto 0;
+} */
+
+ul {
+  display: flex;
+  gap: 20px;
+}
+
+li {
+  list-style-type: none;
+}
+
+.next__1 {
+  width: 1920px;
+  height: 493px;
+  /* border: 1px solid black; */
+  /* background-color: grey; */
+  margin: 0 auto;
+}
+
+.next__obshiy {
+  display: flex;
+  /* gap: 100px; */
+  width: 1170px;
+  /* height: 493px; */
+  margin: 122.11px auto 122.11px auto;
+}
+
+.krug {
+  width: 100px;
+  height: 100px;
+  border: 10px solid rgb(8, 27, 29);
+  border-radius: 100%;
+  margin: 0 auto;
+}
+.next__2 {
+  width: 1920px;
+  height: 763px;
+  /* border: 1px solid black; */
+  margin: 0 auto;
+}
+
+.block__1 {
+  display: flex;
+  width: 1170px;
+  height: 603px;
+  /* border: 1px solid black; */
+  margin: 80px auto 80px auto;
+}
+
+.block__1_1 {
+  width: 585px;
+  height: 603px;
+  /* border: 1px solid black; */
+  
+}
+
+.block__1_1 p {
+  font-size: 1rem;
+
+  text-align: left;
+}
+
+.block__1_1_button {
+  width: 195px;
+  height: 58px;
+  border: 1px solid black;
+}
+
+.block__1_2 {
+  width: 585px;
+  height: 603px;
+  /* border: 1px solid black; */
+  background-image: url(image\ 1.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.footer {
+  width: 1920px;
+  height: 300px;
+  background-color: #191c1a;
+  margin: 0 auto;
+}
+
+.text__footer {
+  width: 1170px;
+  height: 180px;
+  margin: 0 auto;
+  /* border: 1px solid white; */
+}
